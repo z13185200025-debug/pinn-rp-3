@@ -1,0 +1,21 @@
+project_name: pinn-rp3
+data_dir: DATA
+output_dir: outputs
+random_seed: 42
+device: auto
+axial_coordinate: x
+radial_coordinate: auto
+diameter_scale_to_meter: 1.0
+heat_flux_scale_to_w_m2: 1000.0
+save_format: parquet
+wall_tol: 0.02
+max_eda_cases: 6
+grid_nx: 64
+grid_nr: 32
+sequence_length: 128
+sample_rows_per_case:
+num_workers: 0
+pin_memory: false
+smoke:
+  max_cases: 4
+  sample_rows: 20000

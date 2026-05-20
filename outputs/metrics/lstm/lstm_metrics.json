@@ -1,0 +1,8 @@
+{
+  "model_name": "lstm",
+  "task": "sequence",
+  "training_time": 0.11949300765991211,
+  "parameter_count": 116740,
+  "best_val_loss": 3.6471872329711914,
+  "relative_L2": 3.6471872329711914
+}

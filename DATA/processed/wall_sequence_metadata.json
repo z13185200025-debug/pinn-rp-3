@@ -1,0 +1,32 @@
+{
+  "sequence_ids": [
+    "1.5-473-500|negative_r",
+    "1.5-473-500|positive_r",
+    "1.5-473-550|negative_r",
+    "1.5-473-550|positive_r",
+    "1.5-473-600|negative_r",
+    "1.5-473-600|positive_r",
+    "1.5-473-650|negative_r",
+    "1.5-473-650|positive_r"
+  ],
+  "input_features": [
+    "diameter",
+    "inlet_temperature",
+    "wall_heat_flux",
+    "x",
+    "x_over_L",
+    "wall_adjacent_temperature",
+    "u_near_wall",
+    "density_near_wall",
+    "turb_reynolds_number_near_wall",
+    "prandtl_number_lam_near_wall",
+    "omega_z_near_wall"
+  ],
+  "target_features": [
+    "wall_temperature",
+    "nusselt_number",
+    "Tw_minus_Tb",
+    "HTD_label"
+  ],
+  "sequence_length": 128
+}

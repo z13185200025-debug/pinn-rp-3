@@ -1,0 +1,8 @@
+{
+  "model_name": "fno",
+  "task": "grid",
+  "training_time": 0.1354842185974121,
+  "parameter_count": 595683,
+  "best_val_loss": 2.6647186279296875,
+  "relative_L2": 2.6647186279296875
+}

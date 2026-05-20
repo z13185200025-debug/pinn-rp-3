@@ -1,0 +1,109 @@
+split:
+  split_method: case_split
+  test_size: 0.2
+  val_size: 0.1
+  random_seed: 42
+  holdout_value:
+  manifest_path: outputs/reports/split_manifest.json
+
+training:
+  batch_size: 1024
+  epochs: 20
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-6
+  early_stopping_patience: 8
+  early_stopping_min_delta: 1.0e-6
+  scheduler: cosine
+  amp: false
+  gradient_accumulation_steps: 1
+  gradient_clip_norm: 10.0
+  resume:
+  save_best: true
+  log_interval: 20
+
+mlp:
+  hidden_layers: [128, 128, 128]
+  activation: silu
+  dropout: 0.0
+  batch_norm: true
+  layer_norm: false
+  residual: false
+  fourier_features: false
+  fourier_num_frequencies: 4
+
+dnn:
+  hidden_layers: [256, 256, 256, 128, 128]
+  activation: silu
+  dropout: 0.0
+  batch_norm: true
+
+resnet_mlp:
+  hidden_dim: 256
+  num_blocks: 4
+  activation: silu
+  dropout: 0.0
+  layer_norm: true
+
+cnn:
+  in_channels: 6
+  out_channels: 3
+  base_channels: 32
+  depth: 3
+
+unet:
+  in_channels: 6
+  out_channels: 3
+  base_channels: 32
+  depth: 3
+
+fno:
+  in_channels: 6
+  out_channels: 3
+  width: 32
+  modes1: 12
+  modes2: 12
+  num_layers: 4
+
+sequence:
+  hidden_dim: 96
+  num_layers: 2
+  dropout: 0.0
+
+transformer:
+  d_model: 96
+  nhead: 4
+  num_layers: 2
+  dropout: 0.0
+
+deeponet:
+  branch_dim: 3
+  trunk_dim: 2
+  width: 128
+  latent_dim: 96
+
+property_pinn:
+  hidden_layers: [128, 128, 128]
+  property_hidden_layers: [64, 64]
+  activation: tanh
+
+rans_pinn:
+  hidden_layers: [128, 128, 128]
+  activation: tanh
+  auxiliary_weight: 0.1
+
+gnn:
+  hidden_dim: 96
+  num_layers: 3
+
+pinn:
+  hidden_layers: [128, 128, 128, 128]
+  activation: tanh
+  Cp_const: 2200.0
+  k_const: 0.12
+  loss_weights:
+    data: 1.0
+    continuity: 0.01
+    energy: 0.01
+    bc_inlet: 0.1
+    bc_wall_heat_flux: 0.1
+    bc_wall_noslip: 0.01

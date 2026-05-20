@@ -1,0 +1,25 @@
+{
+  "input_features": [
+    "diameter",
+    "inlet_temperature",
+    "wall_heat_flux",
+    "x",
+    "x_over_L",
+    "r_over_R"
+  ],
+  "target_features": [
+    "temperature",
+    "u",
+    "density"
+  ],
+  "train_cases": [
+    "1.5-473-500",
+    "1.5-473-600"
+  ],
+  "val_cases": [
+    "1.5-473-650"
+  ],
+  "test_cases": [
+    "1.5-473-550"
+  ]
+}

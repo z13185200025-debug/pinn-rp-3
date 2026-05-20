@@ -1,0 +1,93 @@
+{
+  "MAE_temperature": 52.817169189453125,
+  "RMSE_temperature": 76.29229743845377,
+  "R2_temperature": 0.9099481105804443,
+  "MAPE_temperature": 6.224126815795898,
+  "MAE_u": 0.43858927488327026,
+  "RMSE_u": 0.592784523271095,
+  "R2_u": 0.24600672721862793,
+  "MAPE_u": 278990016.0,
+  "MAE_density": 50.05065155029297,
+  "RMSE_density": 76.38995864149948,
+  "R2_density": 0.9059411287307739,
+  "MAPE_density": 39.50080108642578,
+  "relative_L2": 0.121229387819767,
+  "training_time": 1.6213970184326172,
+  "parameter_count": 532995,
+  "best_val_loss": 0.23142385482788086,
+  "model_name": "resnet_mlp",
+  "task": "field",
+  "split_method": "case_split",
+  "train_cases": 2,
+  "test_cases": 1,
+  "grouped_metrics": {
+    "case_id": {
+      "case_id_1.5-473-550": {
+        "MAE_temperature": 52.817169189453125,
+        "RMSE_temperature": 76.29229743845377,
+        "R2_temperature": 0.9099481105804443,
+        "MAPE_temperature": 6.224126815795898,
+        "MAE_u": 0.43858927488327026,
+        "RMSE_u": 0.592784523271095,
+        "R2_u": 0.24600672721862793,
+        "MAPE_u": 278990016.0,
+        "MAE_density": 50.05065155029297,
+        "RMSE_density": 76.38995864149948,
+        "R2_density": 0.9059411287307739,
+        "MAPE_density": 39.50080108642578,
+        "relative_L2": 0.121229387819767
+      }
+    },
+    "diameter": {
+      "diameter_1.5": {
+        "MAE_temperature": 52.817169189453125,
+        "RMSE_temperature": 76.29229743845377,
+        "R2_temperature": 0.9099481105804443,
+        "MAPE_temperature": 6.224126815795898,
+        "MAE_u": 0.43858927488327026,
+        "RMSE_u": 0.592784523271095,
+        "R2_u": 0.24600672721862793,
+        "MAPE_u": 278990016.0,
+        "MAE_density": 50.05065155029297,
+        "RMSE_density": 76.38995864149948,
+        "R2_density": 0.9059411287307739,
+        "MAPE_density": 39.50080108642578,
+        "relative_L2": 0.121229387819767
+      }
+    },
+    "wall_heat_flux": {
+      "wall_heat_flux_550.0": {
+        "MAE_temperature": 52.817169189453125,
+        "RMSE_temperature": 76.29229743845377,
+        "R2_temperature": 0.9099481105804443,
+        "MAPE_temperature": 6.224126815795898,
+        "MAE_u": 0.43858927488327026,
+        "RMSE_u": 0.592784523271095,
+        "R2_u": 0.24600672721862793,
+        "MAPE_u": 278990016.0,
+        "MAE_density": 50.05065155029297,
+        "RMSE_density": 76.38995864149948,
+        "R2_density": 0.9059411287307739,
+        "MAPE_density": 39.50080108642578,
+        "relative_L2": 0.121229387819767
+      }
+    },
+    "inlet_temperature": {
+      "inlet_temperature_473.0": {
+        "MAE_temperature": 52.817169189453125,
+        "RMSE_temperature": 76.29229743845377,
+        "R2_temperature": 0.9099481105804443,
+        "MAPE_temperature": 6.224126815795898,
+        "MAE_u": 0.43858927488327026,
+        "RMSE_u": 0.592784523271095,
+        "R2_u": 0.24600672721862793,
+        "MAPE_u": 278990016.0,
+        "MAE_density": 50.05065155029297,
+        "RMSE_density": 76.38995864149948,
+        "R2_density": 0.9059411287307739,
+        "MAPE_density": 39.50080108642578,
+        "relative_L2": 0.121229387819767
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "model_name": "unet",
+  "task": "grid",
+  "training_time": 0.1565239429473877,
+  "parameter_count": 1929347,
+  "best_val_loss": 2.259932041168213,
+  "relative_L2": 2.259932041168213
+}

@@ -1,0 +1,8 @@
+{
+  "model_name": "tcn",
+  "task": "sequence",
+  "training_time": 0.05695009231567383,
+  "parameter_count": 112516,
+  "best_val_loss": 2.779473304748535,
+  "relative_L2": 2.779473304748535
+}

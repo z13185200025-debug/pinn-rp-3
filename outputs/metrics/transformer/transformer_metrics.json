@@ -1,0 +1,8 @@
+{
+  "model_name": "transformer",
+  "task": "sequence",
+  "training_time": 0.10515999794006348,
+  "parameter_count": 867524,
+  "best_val_loss": 1.8668262958526611,
+  "relative_L2": 1.8668262958526611
+}

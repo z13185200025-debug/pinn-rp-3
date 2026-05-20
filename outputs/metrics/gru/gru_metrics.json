@@ -1,0 +1,8 @@
+{
+  "model_name": "gru",
+  "task": "sequence",
+  "training_time": 0.13541507720947266,
+  "parameter_count": 87652,
+  "best_val_loss": 3.056929588317871,
+  "relative_L2": 3.056929588317871
+}

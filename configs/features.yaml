@@ -1,0 +1,96 @@
+raw_keep_features:
+  - x-coordinate
+  - y-coordinate
+  - z-coordinate
+  - pressure
+  - density
+  - x-velocity
+  - temperature
+  - wall-temperature
+  - wall-adjacent-temperature
+  - nusselt-number
+  - dynamic-pressure
+  - cell-reynolds-number
+  - turb-reynolds-number-rey
+  - prandtl-number-lam
+  - z-vorticity
+
+optional_keep_features:
+  - velocity-magnitude
+  - y-velocity
+  - x-vorticity
+  - y-vorticity
+  - total-enthalpy
+  - internal-energy
+
+ignored_features:
+  - nodenumber
+  - density-all
+  - total-temperature
+  - pressure-coefficient
+  - absolute-pressure
+  - z-velocity
+
+main_input_features:
+  - diameter
+  - inlet_temperature
+  - wall_heat_flux
+  - x
+  - x_over_L
+  - r_over_R
+  - temperature
+  - u
+  - pressure
+  - density
+  - turb_reynolds_number
+  - prandtl_number_lam
+  - omega_z
+
+pinn_input_features:
+  - diameter
+  - inlet_temperature
+  - wall_heat_flux
+  - x
+  - x_over_L
+  - r_over_R
+
+main_output_features:
+  - temperature
+  - u
+  - pressure
+  - density
+  - wall_temperature
+  - nusselt_number
+
+pinn_output_features:
+  - temperature
+  - u
+  - pressure
+  - density
+
+wall_input_features:
+  - diameter
+  - inlet_temperature
+  - wall_heat_flux
+  - x
+  - x_over_L
+  - wall_adjacent_temperature
+  - u_near_wall
+  - density_near_wall
+  - turb_reynolds_number_near_wall
+  - prandtl_number_lam_near_wall
+  - omega_z_near_wall
+
+wall_output_features:
+  - wall_temperature
+  - nusselt_number
+  - Tw_minus_Tb
+  - dTw_dx
+  - dNu_dx
+  - HTD_label
+
+htd_label:
+  suspicious_dTw_dx_quantile: 0.75
+  severe_dTw_dx_quantile: 0.90
+  suspicious_dNu_dx_quantile: 0.25
+  severe_Nu_normalized_threshold: 0.70

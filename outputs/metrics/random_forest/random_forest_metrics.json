@@ -1,0 +1,22 @@
+{
+  "MAE_temperature": 30.512121735757237,
+  "RMSE_temperature": 59.8547049194672,
+  "R2_temperature": 0.9451715980384353,
+  "MAPE_temperature": 3.554694255105908,
+  "MAE_u": 0.09993303434555005,
+  "RMSE_u": 0.1990067647185928,
+  "R2_u": 0.9130219060597107,
+  "MAPE_u": 258033406801.46393,
+  "MAE_density": 20.62333641680521,
+  "RMSE_density": 45.18352489674391,
+  "R2_density": 0.9676518766906423,
+  "MAPE_density": 8.356353716773752,
+  "relative_L2": 0.08406209120436196,
+  "model_name": "random_forest",
+  "task": "regression",
+  "split_method": "case_split",
+  "training_time": 0.16022777557373047,
+  "parameter_count": 0,
+  "train_cases": 2,
+  "test_cases": 1
+}

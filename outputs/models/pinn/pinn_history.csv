@@ -1,0 +1,2 @@
+epoch,train_loss,val_loss,lr,train_data,train_continuity,train_energy,train_bc_inlet,train_bc_wall_heat_flux,train_bc_wall_noslip
+0,4704255868928.0,71934997954560.0,0.0,1.0071789026260376,5.018456935882568,467338948247552.0,73229.2734375,308666564608.0,0.740998387336731

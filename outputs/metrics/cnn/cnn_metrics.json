@@ -1,0 +1,8 @@
+{
+  "model_name": "cnn",
+  "task": "grid",
+  "training_time": 0.04237079620361328,
+  "parameter_count": 20547,
+  "best_val_loss": 3.261038303375244,
+  "relative_L2": 3.261038303375244
+}
