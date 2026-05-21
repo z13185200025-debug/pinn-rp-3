@@ -215,12 +215,7 @@ outputs/metrics/mlp/mlp_metrics.json
 outputs/predictions/mlp/mlp_predictions.csv
 outputs/figures/mlp/
 ```
-
-## 如何添加外部 RP-3 物性表
-
-建议新增 `data/raw/property_table.csv`，至少包含 `temperature`、`pressure`、`density`、`prandtl_number`，可扩展 `Cp/k/mu`。然后在 `PropertyNet` 训练中加入外部物性监督，并在 PINN energy residual 中用 property network 输出替代常数 `Cp_const/k_const`。
-
-## 仍需人工确认
+## 需确认
 
 - 文件名中的 `diameter` 单位。
 - `wall_heat_flux` 是否为 kW/m2；当前默认乘 `1000.0` 转 W/m2。
